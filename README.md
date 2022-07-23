@@ -11,7 +11,7 @@ It's built around simple data-classes that represents a Company / Verifications 
 Install the latest version with
 
 ```bash
-$ composer require jttech/sie
+$ composer require pajkho/siephp
 ```
 
 ## Usage
