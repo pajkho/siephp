@@ -26,7 +26,7 @@ class Transaction
 
     /**
      * Array with objects, uses the dimension as keys, and the value is set to Object.
-     * @var Object[]
+     * @var SIEObject[]
      */
     protected $objects;
 
