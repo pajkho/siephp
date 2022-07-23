@@ -16,7 +16,7 @@ use SIE\Exception\InvalidArgumentException;
 /**
  * Represents an "value" in a Dimension: An Object.
  */
-class Object
+class SIEObject
 {
     /**
      * Dimension id
@@ -71,7 +71,7 @@ class Object
     /**
      * Set dimension
      * @param Dimension $dimension
-     * @return Object
+     * @return SIEObject
      */
     public function setDimension($dimension)
     {
@@ -91,7 +91,7 @@ class Object
     /**
      * Set name
      * @param string $name
-     * @return Object
+     * @return SIEObject
      */
     public function setName($name)
     {
