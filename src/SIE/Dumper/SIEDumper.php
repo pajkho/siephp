@@ -150,7 +150,7 @@ class SIEDumper
         $data  = $this->getLine('FLAGGA', ['0']);
         $data .= $this->getLine('FORMAT', ['PC8']);
         $data .= $this->getLine('SIETYP', ['4']);
-        $data .= $this->getLine('PROGRAM', [$this->options['generator']]);
+        $data .= $this->getLine('PROGRAM', [$this->options['generator'], 1]);
         $data .= $this->getLine('GEN', [$this->options['generated_date'], $this->options['generated_sign']]);
         $data .= $this->getLine('FNAMN', [$sie->getCompanyName()]);
         // optional
